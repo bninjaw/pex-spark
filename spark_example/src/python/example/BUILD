@@ -6,11 +6,3 @@ pex_binary(
     ],
 )
 
-python_sources(name="lib")
-
-python_requirement(
-    name="pyspark",
-    requirements=[
-        "pyspark==3.0.1",
-    ],
-)
